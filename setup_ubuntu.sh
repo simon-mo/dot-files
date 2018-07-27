@@ -16,4 +16,4 @@ source $HOME/.bashrc
 rm Miniconda3-latest-Linux-x86_64.sh
 
 wget -qO- https://get.docker.com/ | sh
-
+sudo usermod -aG docker ubuntu
